@@ -37,7 +37,8 @@
 }
 
 .bodyContainer {
-	padding: 1em;	
+	padding: 0em;
+	overflow: auto;	
 }
 
 .HBigLogoContainer {
