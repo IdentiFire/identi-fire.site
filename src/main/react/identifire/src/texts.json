@@ -1,0 +1,82 @@
+[{
+   "s1": ["It is time you own and control your" ,"digital identity and personal data"], 
+   "s2":["Sign up to be first!"],
+   "s3":["Identifire provides a digital identity KYC solution that verifies and validates your", "identity in the digital world using NFT and blockchain technology."]
+   ,"q1": ["Why do I need an IdentiFire NFT ID?"],
+   "q2": ["Are we keeping any of your PII data?"],
+   "q3": ["What do I need to do before starting?"],
+   "q4": ["What type of my personal information is required?"],
+   "q5": ["What is the future hold?"],
+  
+   "w":  ["Easy process enable your physical self to create an identity NFT for", 
+          "self-usage and control. Your PII data will be encrypted on your Identifier ID", 
+          "registered and transferred to your wallet!"
+         ],
+   "connect":  ["Every time you wish to check the validity,",
+                "verify or even update your PII/ KYC metadata, encrypted",
+                "on your identity token, you will just need to re connect",
+                "your phantom wallet to our IDENTIFIRE wallet login below."],
+   "bwl":["Get on the white list"],
+   "oi2w": ["Securing your personal data from the real world","across the metaverse using Web.3 solutions"],
+   "sb": ["Our minting process uses the SOL", 
+      "BLOCKCHAIN architecture  ('SOL' / 'SOLNA'). ",
+      "SOL is a state-of-the-art blockchain",
+      "infrastructure It enables a large amount of",
+      "registrations to be made registrations to be made quickly.",
+      "The registration on the SOL blockchain process does not require",
+      "a great deal of electricity as it uses prof of history verification."
+   ],
+   "oitwdesc": [
+      "Through the use of Blockchain technology, we",
+      "can make one-time registration of ownership",
+      " in a digital file consisting of PII combined with",
+      "Regulatory identification known as KYC",
+      "(Know Your Client) -  PII personal information is",
+      "encrypted on a non-fungible token (NFT)."
+
+   ],
+   "towts": [
+      "The only way to secure your",
+      "identity in the digital realm",
+      ""
+      
+   ],
+   "dlyn": [
+      "Follow us on social networks or just leave your email so you can be one of the firsts to ", 
+      "tokenize your personal identity data"
+
+   ],
+   "dlynanhead": ["Don’t Leave Your Name and Number!"],
+   "regain":["Regain Control Of","Your Identity"],
+   "connecttowallet": ["Open Your Phantom Wallet"],
+   "solving":["Solving Web.3’s Identity Crisis"],
+   "solvingBoxes": ["Own your PII data",
+                     ["Full viability to who has", "access to your data"],
+                     ["Digital watermark on","your Identity"],
+                     ["Connect digital assets","to your Identity"],
+                     ["Enable transactions", "between visible wallets"],
+                     "Prevent Identity theft"],
+
+   "ans": [
+            "Identifire using minting process on the SOLANA blockchain to encrypt and tokenize your PII data for you to OWN and CONTROL, as a digital form of univalent identity.",
+            "Identifire does not keep copies of any of your personal information. We do not posses any database on our end and all of your personal ID information is being encypted on the NFT ID and transfer into your phantom wallet.",
+            "You just need to click the above button CREATE YOUR IDENTIY NFT and you are set to go!",
+            "You will need to have an official passport, current utility bill and some additional real-world form of identification with you. Additionally, you will be required to add your digital forms of identifications such as email address, social security number, phone number and etc. Finally, you will be required to fill in a standard KYC form and that’s it.  ",
+            "We believe that we found the true usage for blockchain and NFT registrations. The problems with anonymity in the crypto world lack of secured way to hold our PII data and connect between digital assets and our real-life identity, all will be solved with our IDENTIFIRE solution NFT ID."
+   ],
+
+   "persons" : [
+                  ["D. Komeran",  "CEO"],
+                  ["A. Schnabel", "CTO"],
+                  ["E. Bloom", "CSO"],
+                  ["G. Sunshine", "UI/UX"]
+   ],
+   "regaindesc" :[
+         ["PRIVACY FIRST",["Your ID token is saved by","you and not with a third","party"]],
+         ["UTMOST CONTROL",["Bring a full visibility to who","has access to your data. Where","your data go"]],
+         ["REGULATION",["End of GDPR, CCPA & alike", "no more PII data basses", "holding your data "]],
+         ["CONNECT DIGITAL ASSETS",["Connect your identity","with any digital assets", "purchased or formed "]]
+   ]
+
+}
+]

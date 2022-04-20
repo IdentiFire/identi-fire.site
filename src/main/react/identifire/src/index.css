@@ -5,12 +5,12 @@ html {
 
 body {
   margin: 0;
-  font-family: Brinnan, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: Exo, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("./theme/images/background.png");
+  background-color:  #080B20;
   padding: 1em;
   height: 100%;
 }

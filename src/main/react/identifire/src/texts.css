@@ -1,0 +1,228 @@
+/*s1 239 It is time you own and control your digital identity and personal data */
+.s1 {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+}
+/* Join the white list */
+.s2 { 
+    /*position: absolute;
+    width: 271px;
+    height: 54px;
+    left: 361px;
+    top: 691px;*/
+
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 37px;
+    text-transform: uppercase;
+
+    color: #080B20;
+}
+
+/* Identifire provides a digital identity KYC solution that verifies and validates your identity in the digital world using NFT and blockchain technology. */
+.s3 { 
+/*position: absolute;
+width: 872px;
+height: 51px;
+left: 524px;
+top: 1301px;*/
+
+font-family: 'Exo';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.oi2w {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+}
+
+ /* Through the use of Blockchain technology, we can make one-time registration of ownership in a digital file consisting of PII combined with Regulatory identification known as KYC (Your Know Client) -  PII personal information is encrypted on a token.  */
+.oitwdesc {
+
+font-family: 'Exo';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 31px;
+
+color: #FFFFFF;
+
+
+}
+
+/* Our minting process uses the SOL BLOCKCHAIN architecture ("SOL" / "SOLNA"). SOL is a state-of-the-art blockchain infrastructure It enables a large amount of drawings to be made quickly, and the mining process does not require a great deal of electricity. */
+.sb  {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+
+.filter1 {
+    /* Rectangle 60 */
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+}
+
+.buttonJoin {
+    /* Greenblue-glow */
+    background: linear-gradient(101.27deg, #13FCAA 9.53%, #13FCFC 73.31%);
+    box-shadow: 10px 10px 50px rgba(31, 160, 99, 0.5);
+    border-radius: 50px;
+}
+
+/* The only way to secure personal Identities in Web.3 */
+.towts {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+
+    /* Greenblue-glow */
+    background: linear-gradient(101.27deg, #13FCAA 9.53%, #13FCFC 73.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Follow us on social or leave just your email so you can be one of the firsts to tokenize your personal data */
+.dlyndesc {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    fill: #FFFFFF;
+}
+
+    /* Don’t Leave Your Name and Number! */
+.dlynanhead {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    fill: #FFFFFF;
+}
+
+ /* Regain Control of Your Digital Identity */
+.regain {
+
+font-family: 'Exo';
+font-style: normal;
+font-weight: 900;
+font-size: 80px;
+line-height: 115.4%;
+/* or 92px */
+text-align: center;
+
+/* Greenblue-glow */
+background: linear-gradient(101.27deg, #13FCAA 9.53%, #13FCFC 73.31%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+    /* Open your Phantom wallet */
+.connecttowallet {
+    font-family: 'Exo';
+    font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 29px;
+text-align: center;
+text-transform: uppercase;
+
+color: #080B20;
+
+text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+ /* Solving Web.3’s Identity Crisis */
+.solving {
+ 
+font-family: 'Exo';
+font-style: normal;
+font-weight: 800;
+font-size: 45px;
+line-height: 55px;
+text-align: center;
+
+/* Greenblue-glow */
+background: linear-gradient(101.27deg, #13FCAA 9.53%, #13FCFC 73.31%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+
+    /* Get on the wait list */
+.gwl {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    color: #080B20;
+
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.solvingBoxes {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+    /* Your ID token is saved by you and not with a third party */
+.regaindesc {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.regaindesctitle {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
