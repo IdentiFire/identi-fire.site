@@ -10,18 +10,14 @@
 }
 /* Join the white list */
 .s2 { 
-    /*position: absolute;
-    width: 271px;
-    height: 54px;
-    left: 361px;
-    top: 691px;*/
-
+    
     font-family: 'Exo';
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 37px;
     text-transform: uppercase;
+    cursor: pointer;
 
     color: #080B20;
 }
@@ -225,4 +221,15 @@ background-clip: text;
     line-height: 29px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.FSocialLink {
+	cursor: pointer;
+}
+
+.FSolanaImage {
+	fill: red;
+    position: absolute;
+    left: 739px;
+    top: 890px;
 }

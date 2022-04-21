@@ -64,6 +64,7 @@
 .bodyContainer {
 	padding: 0em;
 	overflow: auto;
+	overflow-x: hidden;
 	background-color: #080B20	;
 }
 
