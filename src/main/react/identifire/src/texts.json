@@ -18,13 +18,11 @@
                 "your phantom wallet to our IDENTIFIRE wallet login below."],
    "bwl":["Get on the white list"],
    "oi2w": ["Securing your personal data from the real world","across the metaverse using Web.3 solutions"],
-   "sb": ["Our minting process uses the SOL", 
-      "BLOCKCHAIN architecture  ('SOL' / 'SOLNA'). ",
-      "SOL is a state-of-the-art blockchain",
-      "infrastructure It enables a large amount of",
-      "registrations to be made registrations to be made quickly.",
-      "The registration on the SOL blockchain process does not require",
-      "a great deal of electricity as it uses prof of history verification."
+   "sb": ["Our minting process uses the SOLANA BLOCKCHAIN", 
+      "architecture  ('SOL'). SOL is a state-of-the-art",
+      "blockchain infrastructure that enables a large",
+      "amount of registrations per second based on",
+      "proof of history!"
    ],
    "oitwdesc": [
       "Through the use of Blockchain technology, we",
@@ -47,7 +45,7 @@
 
    ],
    "dlynanhead": ["Don’t Leave Your Name and Number!"],
-   "regain":["Regain Control Of","Your Identity"],
+   "regain":["Regain Control of","Your Digital","Identity"],
    "connecttowallet": ["Open Your Phantom Wallet"],
    "solving":["Solving Web.3’s Identity Crisis"],
    "solvingBoxes": ["Own your PII data",
@@ -76,7 +74,13 @@
          ["UTMOST CONTROL",["Bring a full visibility to who","has access to your data. Where","your data go"]],
          ["REGULATION",["End of GDPR, CCPA & alike", "no more PII data basses", "holding your data "]],
          ["CONNECT DIGITAL ASSETS",["Connect your identity","with any digital assets", "purchased or formed "]]
-   ]
+   ],
+   "copyright" : [
+   		"Copyright © Identi-Fire","All rights reserved"
+   ],
+   "bankofamerica": ["According to  Bank of America research, Solana",
+   				     "protocol’s low fees and high transaction speeds",
+   				     "made it the, \"Visa of the digital asset ecosystem.\""]
 
 }
 ]

@@ -1,7 +1,7 @@
 import appbackground from '../images/background.png';
 import logoNtext from '../images/logoNtext.png';
 import avatar from '../images/Avatar.svg';
-import solana from '../images/solana.png';
+import solana from '../images/solana.svg';
 
 export const IMAGES = {
     "appbackground": appbackground,

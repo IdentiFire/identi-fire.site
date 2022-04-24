@@ -229,7 +229,49 @@ background-clip: text;
 
 .FSolanaImage {
 	fill: red;
-    position: absolute;
-    left: 739px;
-    top: 890px;
+    width: 62px;
+    height: 62px
 }
+
+.emailInput {
+	position: 	absolute;
+	width: 		400px;
+	height: 	45px;
+	color: 		#080b20;
+	fill: 		#080b20;
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 12px;
+	border: none;
+	margin-left: 5px;
+	outline: none;
+}
+
+/* Copyright Identifire 2022 */
+.hcopyright {
+	font-family: 'Exo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 29px;
+	text-align: center;
+	color: #000000;
+}
+
+.siteContent {
+	overflow: hidden;
+}
+
+.registerButton {
+	 color: #080B20;
+	 font-weight: 400;
+	 font-size: 24px;
+	 cursor: pointer;
+}
+
+.registerButton[valid="false"] {
+	color: white;
+	font-weight: 100;
+}
+
+

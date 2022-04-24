@@ -44,7 +44,7 @@
 			<!-- <param-name>com.sun.jersey.config.property.packages</param-name> -->
 			<!-- For Jersey 2.x -->
 			<param-name>jersey.config.server.provider.packages</param-name>
-			<param-value>com.hoplon</param-value>
+			<param-value>com.identifire</param-value>
 		</init-param>
 		<init-param>
 			<param-name>jersey.config.server.provider.classnames</param-name>
