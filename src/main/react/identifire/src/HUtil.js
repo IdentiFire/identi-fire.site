@@ -187,7 +187,7 @@ export const fetchObject = (url, onSuccess, onFailure, body) => {
 			if (isCanceled) {
 				return;
 			}
-			console.log(" e " + e);
+			//console.log(" e " + e);
 			if (onFailure) {
 				onFailure(e);
 			}
@@ -207,7 +207,7 @@ export const fetchFromNode = async (url, onSuccess, onFailure, body, method) => 
 			headers: { 'Content-Type': 'application/json'},
 			}
 	//process.env.REACT_NODE_APP_SERVER_ADDRESS
-	let uri = "http://localhost:8081/messages";	
+	let uri = "./messages";	
 	let response = await fetch(uri+"?data="+JSON.stringify(body), req)
 	let json = await response.json();
 	if (json.status === "200") {
@@ -219,13 +219,13 @@ export const fetchFromNode = async (url, onSuccess, onFailure, body, method) => 
 
 export  const fetchData = async (url, onSuccess, onFailure, body, method) => {
 
-	let session_id = getSessionId();
+	let session_id = "5aef422ab63d4b4f"
 	body = encrypt(body,session_id);
 	if (body.trim() !== "") {
 		body = "data|" + body+"|";
 		body += ",";	
 	}
-	body += "session_id%'"+session_id+"'";
+	body += "session_id%'"+'default'+"'";
 	session_id=session_id.replace('-','');
 	
 	let req = {};
@@ -271,7 +271,7 @@ export  const fetchData = async (url, onSuccess, onFailure, body, method) => {
 			if (isCanceled) {
 				return;
 			}
-			console.log(" e " + e);
+			//console.log(" e " + e);
 			if (onFailure) {
 				onFailure(e);
 			}
