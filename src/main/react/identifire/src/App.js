@@ -12,7 +12,7 @@ import "./texts.css";
 
 function App() {
 	const spaceholder = "Just enter your Email Address";
-	const target = new Date('Jun 15, 2022 00:00:00');
+	const target = new Date('Jun 15, 2022 12:00:00');
 
 	const [countdowndate] 					= useState(target);
 	const [days, setDays] 					= useState(1);
@@ -445,14 +445,14 @@ function App() {
 					<tspan textAnchor="middle" x="1490" dy="1.2em">{textJSON[0].regaindesc[1][1][2]}</tspan>
 				</text>
 				<text fill="white" y="5720" h="103" w="469" className="regaindesc">
-					<tspan textAnchor="middle" x="1350" dy="1.2em">{textJSON[0].regaindesc[3][1][0]}</tspan>
-					<tspan textAnchor="middle" x="1350" dy="1.2em">{textJSON[0].regaindesc[3][1][1]}</tspan>
-					<tspan textAnchor="middle" x="1350" dy="1.2em">{textJSON[0].regaindesc[3][1][2]}</tspan>
+					<tspan textAnchor="middle" x="1350" dy="1.2em">{textJSON[0].regaindesc[2][1][0]}</tspan>
+					<tspan textAnchor="middle" x="1350" dy="1.2em">{textJSON[0].regaindesc[2][1][1]}</tspan>
+					<tspan textAnchor="middle" x="1350" dy="1.2em">{textJSON[0].regaindesc[2][1][2]}</tspan>
 				</text>
 				<text fill="white" y="5731" h="103" w="469" className="regaindesc">
-					<tspan textAnchor="middle" x="500" dy="1.2em">{textJSON[0].regaindesc[2][1][0]}</tspan>
-					<tspan textAnchor="middle" x="500" dy="1.2em">{textJSON[0].regaindesc[2][1][1]}</tspan>
-					<tspan textAnchor="middle" x="500" dy="1.2em">{textJSON[0].regaindesc[2][1][2]}</tspan>
+					<tspan textAnchor="middle" x="500" dy="1.2em">{textJSON[0].regaindesc[3][1][0]}</tspan>
+					<tspan textAnchor="middle" x="500" dy="1.2em">{textJSON[0].regaindesc[3][1][1]}</tspan>
+					<tspan textAnchor="middle" x="500" dy="1.2em">{textJSON[0].regaindesc[3][1][2]}</tspan>
 				</text>
 				<text fill="white" x="500" y="5691" h="103" w="469" className="regaindesctitle">
 					<tspan textAnchor="middle" x="500" dy="1.2em">{textJSON[0].regaindesc[3][0]}</tspan>
@@ -825,9 +825,9 @@ function App() {
 				<rect width="93.5028" height="93.5028" rx="9" transform="matrix(0.866025 0.5 -2.20305e-08 1 -37.0057 6454.81)" fill="url(#paint103_linear_41_3)" />
 				<rect width="93.5028" height="93.5028" rx="9" transform="matrix(0.866025 0.5 -0.866025 0.5 47.4985 6401.29)" fill="url(#paint104_linear_41_3)" />
 				<rect x="738" y="887" width="62" height="62" fill="url(#pattern0)" />
-				<g filter="url(#filter85_bd_41_3)">
-					<rect onClick={() => connectWallet()} x="729" y="7958" width="462.6" height="52" rx="29.5" fill="url(#paint105_linear_41_3)" shapeRendering="crispEdges" />
-					<rect onClick={() => connectWallet()} x="727.5" y="7956.5" width="465.6" height="45" rx="31" fill="url(#paint106_linear_41_3)" strokeWidth="3" shapeRendering="crispEdges" />
+				<g>
+					<rect className="FConnectToWalletrect" onClick={() => connectWallet()} x="729" y="7958" width="462.6" height="52" rx="29.5" fill="url(#paint105_linear_41_3)" shapeRendering="crispEdges" />
+					<rect className="FConnectToWalletrect" onClick={() => connectWallet()} x="727.5" y="7956.5" width="465.6" height="45" rx="31" fill="url(#paint106_linear_41_3)" strokeWidth="3" shapeRendering="crispEdges" />
 				</g>
 
 				<text fill="#ffffff" x="940" y="7830" h="51" w="872" className="s3">
@@ -836,8 +836,8 @@ function App() {
 					<tspan textAnchor="middle" x="940" dy="1.2em">{textJSON[0].connect[2]}</tspan>
 					<tspan textAnchor="middle" x="940" dy="1.2em">{textJSON[0].connect[3]}</tspan>
 				</text>
-				<text fill="#080B20" x="940" y="7965" h="45" w="872" className="connecttowallet">
-					<tspan  textAnchor="middle" x="965" dy="1.2em">{textJSON[0].connecttowallet[0]}</tspan>
+				<text onClick={() => connectWallet()} fill="#080B20" x="940" y="7965" h="45" w="872" className="connecttowallet">
+					<tspan  className="FConnectToWalletrect" textAnchor="middle" x="965" dy="1.2em">{textJSON[0].connecttowallet[0]}</tspan>
 				</text>
 
 				<text fill="#080B20" x="781.965" y="8509" h="103" w="469" className="s1">
@@ -897,7 +897,7 @@ function App() {
 					<tspan textAnchor="middle" x="1150" dy="1.2em">{textJSON[0].w[2]}</tspan>
 				</text>
 
-				<g filter="url(#filter87_bd_41_3)" onClick={scrollToReg}>
+				<g onClick={scrollToReg}>
 					<rect x="897" y="2449" width="426" height="72" rx="36" fill="url(#paint114_linear_41_3)" shapeRendering="crispEdges" />
 					<rect x="895.5" y="2447.5" width="431" height="77" rx="38.5" fill="url(#paint115_linear_41_3)" strokeWidth="5" shapeRendering="crispEdges" />
 				</g>
@@ -1503,30 +1503,6 @@ function App() {
 				<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 					<use transform="scale(0.0005)" />
 				</pattern>
-				<filter id="filter85_bd_41_3" x="706" y="7885" width="508.6" height="125" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-					<feFlood floodOpacity="0" result="BackgroundImageFix" />
-					<feGaussianBlur in="BackgroundImage" stdDeviation="10" />
-					<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_41_3" />
-					<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-					<feOffset dy="20" />
-					<feGaussianBlur stdDeviation="10" />
-					<feComposite in2="hardAlpha" operator="out" />
-					<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
-					<feBlend mode="normal" in2="effect1_backgroundBlur_41_3" result="effect2_dropShadow_41_3" />
-					<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_41_3" result="shape" />
-				</filter>
-				<filter id="filter87_bd_41_3" x="874" y="2426" width="508.6" height="125" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-					<feFlood floodOpacity="0" result="BackgroundImageFix" />
-					<feGaussianBlur in="BackgroundImage" stdDeviation="10" />
-					<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_41_3" />
-					<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-					<feOffset dy="20" />
-					<feGaussianBlur stdDeviation="10" />
-					<feComposite in2="hardAlpha" operator="out" />
-					<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
-					<feBlend mode="normal" in2="effect1_backgroundBlur_41_3" result="effect2_dropShadow_41_3" />
-					<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_41_3" result="shape" />
-				</filter>
 				<linearGradient id="paint0_linear_41_3" x1="1125" y1="8497" x2="1125" y2="8565" gradientUnits="userSpaceOnUse">
 					<stop stopColor="white" />
 					<stop offset="1" stopColor="white" stopOpacity="0" />
