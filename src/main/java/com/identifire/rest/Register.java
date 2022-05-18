@@ -1,7 +1,5 @@
 package com.identifire.rest;
 
-import java.sql.SQLException;
-
 import javax.json.JsonObject;
 import javax.json.JsonObjectBuilder;
 import javax.ws.rs.Consumes;
@@ -17,7 +15,6 @@ import org.json.JSONObject;
 import com.identifire.common.log.HLogger;
 import com.identifire.connection.AWSSiteDBConnection;
 import com.identifire.connection.DBConnection;
-import com.identifire.connection.IDBConnection;
 import com.identifire.model.FEmails;
 import com.identifire.model.FSchema;
 

@@ -8,18 +8,19 @@
 
     color: #FFFFFF;
 }
+
 /* Join the white list */
-.s2 { 
-    
-    font-family: 'Exo';
-    font-style: normal;
+.s2 {
     font-weight: 600;
     font-size: 28px;
     line-height: 37px;
     text-transform: uppercase;
     cursor: pointer;
+    fill: #080B20;
+}
 
-    color: #080B20;
+.s2:hover {
+	fill: white;
 }
 
 /* Identifire provides a digital identity KYC solution that verifies and validates your identity in the digital world using NFT and blockchain technology. */
@@ -240,7 +241,7 @@ background-clip: text;
 .emailInputfg {
 	position: 	absolute;
 	width: 		400px;
-	height: 	53px;
+	height: 	48px;
 	color: 		#080b20;
 	border: none;
 }
@@ -253,10 +254,11 @@ background-clip: text;
 }
 
 .emailInput {
+	margin-top: 0px !important;
 	margin-left: 5px;
 	outline: none;
 	font-size: 24px;
-	height: 	53px;
+	height: 	48px;
 	width: 100%;
 	border: none;
 	line-height: 30px;
@@ -294,9 +296,288 @@ background-clip: text;
 	animation: progressanim 2s linear infinite;
 }
 
-.AmirTest {
-	background-color: red;
+.FAnswerContainer {
+	border: 3px solid;
+	border-image-source: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+	background: rgba(255, 255, 255, 0.9);
+	box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(20px);
+	/* Note: backdrop-filter has minimal browser support */
+	border-radius: 20px;
 }
+
+.FActionButton {
+	background-color: red;
+	background: linear-gradient(101.27deg, #13FCAA 9.53%, #13FCFC 73.31%);
+	box-shadow: 10px 10px 50px rgba(31, 160, 99, 0.5);
+	border-radius: 50px;
+	text-align:center;
+	border: 5px solid #FFFFFF;
+	cursor: pointer;
+}
+
+.FActionButton[isvalid="true"]:hover {
+	background: linear-gradient(59.58deg, #9A55F1 23.26%, #006BFF 105.52%);
+	border: 5px solid #FFFFFF;
+	border-radius: 50px;
+}
+
+.FActionButton[isvalid="false"]:hover {
+	cursor: not-allowed;
+}
+
+.FButtonSignUpInner {
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 37px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #080B20;
+	cursor: pointer;
+}
+
+.FButtonSignUpInner:hover {
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 37px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.FActionRegister {
+	height: 57px;
+}
+
+.FActionButtonLabel {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 29px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #080B20;
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+	line-height: 2.8em;;
+}
+.FGBody {
+	padding: 0 !important;
+}
+.FActionButton[isvalid="false"] > .FActionButtonLabel {
+ 	cursor: not-allowed;
+}
+
+.FQuestionAndAnswer[issafari="false"] {
+	width: 753px;
+	height: 45px;
+	background: rgba(255, 255, 255, 0.9);
+	box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	color: #080B20;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 705px 48px;
+	z-index: 100;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+	grid-row: 1;
+	z-index: 100;
+}
+
+.FQuestionAndAnswer[issafari="true"] {
+	width: 450px;
+	height: 26px;
+	max-height: 26px;
+	background: rgba(255, 255, 255, 0.9);
+	margin: 0px 0px 0px 0px !important;
+	padding: 0px 0px 12px 0px;
+	overflow: hidden;
+	font-size: 22px;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.FQAImage[issafari="true"] {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	float: right;
+	top: 4px;
+	right: 6px;
+ 
+}
+
+.FQAImage {
+	width: 48px;
+	height: 48px;
+	cursor: pointer;
+}
+
+.FQALabel {
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0.035em;
+	color: #080B20;
+	line-height: 48px;
+	cursor: pointer;
+}
+
+.FAnswer {
+	display: none;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.035em;
+	color: #555658;
+	background: rgba(255, 255, 255, 1);
+	border:none;
+	margin-left: 41px;		
+	margin-right: 41px;
+}
+
+.FQAContainer[issafari="false"].FQAContainer[isselected="false"] {
+	position: fixed;
+	background: rgba(255, 255, 255,1);
+	border-radius: 20px;
+}
+
+.FQAContainer[issafari="false"].FQAContainer[isselected="true"] {
+	background: rgba(255, 255, 255,1);
+	height: 280px;
+}
+
+.FQAContainer[issafari="true"].FQAContainer[isselected="false"] {
+	will-change: auto;
+	position: fixed;
+	width: 770px;
+	min-width: 770px;	
+	font-size: 18px;
+}
+
+.FQAContainer[issafari="true"].FQAContainer[isselected="true"] {
+	will-change: auto;
+	  -webkit-box-pack: center;
+	background: white;
+	position: fixed;
+	width: 450px !important;
+	min-width: 450px !important;
+	max-width: 450px !important;
+	min-height: 300px;
+	max-height: 300px;
+	height: 	300px;
+	border-radius: 20px;
+}
+
+.FAnswer[issafari="false"] {	
+	text-align: center;
+	display:block;
+	width: calc(100% - 82px);
+	max-width: calc(100% - 82px);
+	min-width: calc(100% - 82px);
+	margin-top: -10px;
+}
+
+.FAnswer[issafari="true"].FAnswer[isselected="true"] {
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-top: -10px;
+	margin-left: 41px;		
+	margin-right: 41px;
+	width: 405px;
+	max-width: 405px;
+	min-width: 405px;
+	background: lightfray;
+	
+}
+
+.FAnswer[issafari="true"].FAnswer[isselected="false"] {
+	height: 200px;
+	display: none;
+    background: white;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 20px;
+	letter-spacing: 0.035em;
+	color: #555658;
+	background: rgba(255, 255, 255, 1);
+	border:none;
+}
+
+.FAnswPara[issafari="true"].FAnswPara[isselected="true"] {
+	position: relative;
+	display: block;
+	width: 380px;
+	max-width: 380px;
+	min-width: 380px;
+	font-size: 18px;
+	color: #555658;
+	height: 250px;
+}
+.FQuestionAndAnswer[isselected="true"] {
+	box-shadow: none;
+}
+
+.FAnswer[isselected="true"] {
+	display: block;
+}
+
+.emailInputError {
+	width: 500px;
+	min-width: 500px;
+	height: 45px;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 29px;
+	text-align: center;
+	color: #7F60FF;	
+}
+
+.FOQA {
+	height: 68px;
+	border-radius: 20px;
+	width: 770px;	
+}
+
+.FOQA[isselected="true"] {
+	height: 200px;	
+}
+
+.FOQA[issafari="true"].FOQA[isselected="true"] {
+	height: 200px;
+}
+
+@-moz-document url-prefix() {
+.FActionButton {
+	background: -moz-linear-gradient(left 20deg, black, white);
+	box-shadow: 10px 10px 50px rgba(31, 160, 99, 0.5);
+	border-radius: 50px;
+	text-align:center;
+	border: 5px solid #FFFFFF;
+	cursor: pointer;
+	}
+	
+.FActionButton[isvalid="true"]:hover {
+	background:  -moz-linear-gradient(59.58deg, #9A55F1 23.26%, #006BFF 105.52%);
+	border: 5px solid #FFFFFF;
+	border-radius: 50px;
+}
+
+.FActionRegister {
+   height: 46px; 	
+}
+
+.FActionButtonLabel {
+	margin-bottom: 10px;
+	line-height: 46px;
+}
+
+}
+
 
 @keyframes progressanim {
 	 0% {
