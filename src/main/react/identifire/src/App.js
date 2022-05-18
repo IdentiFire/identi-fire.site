@@ -424,7 +424,7 @@ function App() {
 
 				<g>
 					<foreignObject 	onClick={(e) => doSave(e)} inprogress={""+inprogress} 
-									  x="1036.8" y="10846" width="426" height="59" rx="29.5">
+									  x="1036.8" y="10846" width="426" height="72" rx="29.5">
 									 <div className="FActionButton FActionRegister" iisvalid={isValid()}>
 										<span className="FActionButtonLabel">Register</span>
 									</div>
