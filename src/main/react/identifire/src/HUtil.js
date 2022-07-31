@@ -225,7 +225,7 @@ export  const fetchData = async (url, onSuccess, onFailure, body, method) => {
 		body = "data|" + body+"|";
 		body += ",";	
 	}
-	body += "session_id%'"+'default'+"'";
+	body += "session_id%'default'";
 	session_id=session_id.replace('-','');
 	
 	let req = {};
