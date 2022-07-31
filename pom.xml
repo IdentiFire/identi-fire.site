@@ -6,7 +6,6 @@
 	<packaging>war</packaging>
 	<name>Identifire</name>
 	<description>IdentiFire Landing page</description>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
@@ -40,7 +39,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.identifire</groupId>
-			<artifactId>identi-fire-common</artifactId>
+			<artifactId>identifire-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
