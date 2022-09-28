@@ -17,6 +17,35 @@
 	max-height: calc(100% - 20vh);
 }
 
+.FMSG {
+	font-size: 60px !important;
+	
+}
+
+.FAlertPopup {
+		position: fixed;
+		top: 2em;
+		left: 2em;
+		width: auto;
+		height: 5em;
+		background: transparent; 
+		z-index: 2000;
+		text-align: center;
+}
+
+.FAlertPopupImage {
+	width: 50%;
+	height: auto;
+}
+
+.FPopupcloseicon {
+	color: black;
+	position: fixed;
+	top:5em;
+	left: 5em;
+	cursor: pointer;
+}
+
 .HPageLayout {
 	height: 100%;
 	display: grid;
@@ -105,6 +134,16 @@
 		display: block;
 	}
 	
+	.FAffiliate {
+		 fill: none;
+		 stroke: #13FCAA;
+		 stroke-width:25px;
+		 stroke-linejoin: round;
+	}
+	
+	.FAffiliateContent {
+		cursor: pointer;
+	}
 
 @media only screen and (min-width: 600px) and (max-width: 800px) {
 	.HTitle {
@@ -237,6 +276,7 @@
 		text-align:center;
 		display: block;
 	}
+	
 	
 	
 }

@@ -4,7 +4,8 @@ import avatar from '../images/avatar.png';
 import solana from '../images/solana.svg';
 import qaplus from '../images/QAPlus.png';
 import qaminus from '../images/QAMinus.png';
-
+import sayfer from '../images/sayfer.png';
+import delay from '../images/delay.jpeg';
 
 export const IMAGES = {
     "appbackground": appbackground,
@@ -13,4 +14,6 @@ export const IMAGES = {
     "solana":  solana,
     "QAPlus":  qaplus,
     "QAMinus": qaminus,
+    "sayfer": sayfer,
+    "delay": delay
 }

@@ -1,0 +1,93 @@
+.HJsonkey {
+	color: var(--var-dark-blue);
+	font-weight: 500;
+}
+
+.HDialogText {
+	font-size: 30px;
+	text-align: center;
+}
+
+.HDialogFrameHeader {
+  margin-top: -0.1em;
+  margin-left: -1.1em;	
+  width: calc(100% + 2.2em);
+  height: 1.5em;
+  text-align: center;
+  background-color: var(--var-dark-blue);
+  color: var(--var-white)		
+}
+
+.HDialogFrameHeaderText {
+  margin-top: -0.2em;
+  margin-left: -0.1em;	
+  width: calc(100% + 0.32em);
+  height: 1.5em;
+  text-align: center;
+  background-color: var(--var-dark-blue);
+  color: var(--var-white)		
+}
+
+.HReadOnlyTextArea {
+	width: 100%;
+	height: 15em;
+}
+
+.HJConfirmDialogTextContainer {
+	 text-align: start !important;
+	 padding: 0em 1em 1em 1em;
+	 line-height: 1.5em;
+}
+
+.string {
+	color: black;
+	font-weight: 250;
+	margin-left: 1em;
+}
+
+.HConfirmDialog {
+  position: fixed;
+  top: calc(50% - 15em);
+  left:	calc(50% - 10em);
+  color: var(--var-dialog-fore-color);
+  border: 2px solid  var(--var-dialog-border-color); 
+  background-color: var(--var-dialog-background-color);
+  box-shadow: 1px 2px 2px var(--var-white);
+  width: 40em;
+  height: 30em;
+  z-index: 1500;
+  text-align: center;
+}
+
+.HDialogButton {
+	position: absolute;
+	bottom: 0.5em;
+	right: 0.5em;
+	
+}
+
+.JSONContainer {
+	overflow:auto;
+	max-height: 26em;
+}
+
+.HDialogLinksContainer {
+	display: block;
+	text-align: left;
+	padding: 0.5em;
+}
+
+.HDialogLink {
+	margin-top: 1em;
+	display: block;
+	text-decoration: underline;
+	color: var(--var-link-color);
+	cursor: pointer;
+}
+
+.FPopupImg {
+	height: 7em;
+	width: auto;
+}
+
+ 

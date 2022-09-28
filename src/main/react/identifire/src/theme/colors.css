@@ -2,5 +2,8 @@
 	--var-color-orange: #FFC000;
 	--var-text-color: #ffffff;
 	--var-light-blue: #0E7EB2;
+	 --var-dark-blue: #333a56;
+	
+    --var-wizard-button-color: linear-gradient(101.27deg, #13FCAA 9.53%, #13FCFC 73.31%);
 	
 }
