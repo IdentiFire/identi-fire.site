@@ -20,17 +20,17 @@ function App() {
 	const target = new Date('Oct 19, 2022 18:30:00');
 
 	const [countdowndate] 						= useState(target);
-	const [days, setDays] 							= useState(1);
-	const [hours, setHours] 						= useState(1);
-	const [min, setMin] 								= useState(1);
-	const [sec, setSec] 								= useState(1);
+	const [ , setDays] 							= useState(1);
+	const [ , setHours] 						= useState(1);
+	const [ , setMin] 								= useState(1);
+	const [ , setSec] 								= useState(1);
 	const [qaindex, setQaindex] 				= useState("");
 	const [email, setEmail] 						= useState(0);
 	const [, setWalletAddress] 					= useState(null);
 	const [inprogress,setInprogress] 		= useState(false);
 	const [registererror,setRegistererror] = useState("");
 	const [dummy,setDummy]  					= useState(true);
-	const [openalert, setOpenalert] 			= useState(true);
+	const [, setOpenalert] 			= useState(true);
 		
 	/*const checkIfWalletIsConnected = async () => {
 		try {
@@ -97,7 +97,7 @@ function App() {
 
 	const onRegisterFailure = (response) => {
 		setInprogress(false);
-		if (response.status == 404) {
+		if (response.status === 404) {
 			setRegistererror("Registering failed ");
 			
 			return;
@@ -249,14 +249,14 @@ function App() {
 	else 
 		viewBox = "0 0 1919 11201";
 
-	let d1 = days < 10 ? 0 : Math.floor(days / 10);
+	/*let d1 = days < 10 ? 0 : Math.floor(days / 10);
 	let d2 = days % 10;
 	let h1 = hours < 10 ? 0 : Math.floor(hours / 10);
 	let h2 = hours % 10;
 	let m1 = min < 10 ? 0 : Math.floor(min / 10);
 	let m2 = min % 10;
 	let s1 = sec < 10 ? 0 : Math.floor(sec / 10);
-	let s2 = sec % 10;
+	let s2 = sec % 10;*/
 
 	const getMaxHeight = () => {
 		var ele = document.getElementById("fullContent");
@@ -290,7 +290,7 @@ function App() {
 	return (<div className="siteContent" style={{ maxHeight: getMaxHeight() }}>
 	  { false && <div className="FAlertPopup"  onClick={(e) => {closePopup(e)}}>
 	   <Icon className="FPopupcloseicon" icon={close} size="36"/>
-	  	<img className="FAlertPopupImage" src={IMAGES.delay} />
+	  	<img alt="Sorry Delay" className="FAlertPopupImage" src={IMAGES.delay} />
 	  </div> }
 		<svg id="svg1" width="1920" height="11203" viewBox={viewBox}>
 			<g id="fullContent" clipPath="url(#clip0_41_3)" transform={trans}>
