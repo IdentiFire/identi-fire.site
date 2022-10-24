@@ -562,9 +562,9 @@ background-clip: text;
 	}
 	
 .FActionButton[isvalid="true"]:hover {
-	background:  -moz-linear-gradient(59.58deg, #9A55F1 23.26%, #006BFF 105.52%);
-	border: 5px solid #FFFFFF;
-	border-radius: 50px;
+	background:  -moz-linear-gradient(59.58deg, #9A55F1 23.26%, #006BFF 105.52%) !important;
+	border: 5px solid #FFFFFF !important;
+	border-radius: 50px !important;
 }
 
 .FActionRegister {

@@ -19,7 +19,19 @@
 
 .FMSG {
 	font-size: 60px !important;
+}
+
+.FCreateButton {
+	height: 90%;
+	border-radius: 50px;	
+	display: grid;
 	
+}
+
+.FActionCreateButtonLabel {
+	align-self: center;
+	font-size: 28px;
+	margin-left: 0.2em;
 }
 
 .FAlertPopup {
