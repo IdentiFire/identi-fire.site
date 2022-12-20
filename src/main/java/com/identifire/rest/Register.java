@@ -29,7 +29,7 @@ public class Register extends AbstractTableManager {
 	
 	
 	@SuppressWarnings("unused")
-	private HLogger logger = new HLogger(Register.class.getName());
+	private static HLogger logger = new HLogger(Register.class.getName());
 	
 	@GET
 	@Produces(MediaType.APPLICATION_XML)

@@ -15,7 +15,7 @@ import com.identifire.common.log.HLogger;
 public class AWSSiteDBConnection implements IDBConnection {
 
 	@SuppressWarnings("unused")
-	private HLogger logger = new HLogger(AWSSiteDBConnection.class.getName());
+	private static HLogger logger = new HLogger(AWSSiteDBConnection.class.getName());
 
 	public Connection getRemoteConnection() {
 		Connection con = null;
@@ -27,7 +27,7 @@ public class AWSSiteDBConnection implements IDBConnection {
 			String password 	= "aYnIl1973";
 
 			String jdbcUrl = "jdbc:mysql://" + hostname + ":" + port + "/" + dbName + "?user=" + userName + "&password="
-					+ password;
+					+ password +"&autoReconnect=true";
 			logger.debug("jdbcUrl");
 			con = DriverManager.getConnection(jdbcUrl);
 			logger.debug("Connection successfull");

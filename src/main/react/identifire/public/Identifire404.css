@@ -1,0 +1,37 @@
+body {
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+	background-color: #080B20; 
+	font-family: Exo;
+}
+
+.main-container {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows:33% 33% 33%;
+}
+
+.message-container {
+	grid-column: 2;
+	grid-row: 2;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows:33% 33% 33%;
+	color: white;
+	font-size: 3em;
+	display: block;
+	text-align: center;
+}
+
+.logo {
+	text-align: center;
+	grid-column: 1;
+	grid-row: 1;
+	padding: 0em;
+	align-self: center;
+}
