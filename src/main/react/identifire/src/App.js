@@ -38,7 +38,7 @@ function App() {
 		let lilink = "";
 		switch (index) {
 			case 1: {
-				lilink = "https://il.linkedin.com/in/dor-komeran-5b563531";
+				lilink = "https://www.linkedin.com/in/dor-komeran-adv-5b563531/";
 				break;
 			}
 			case 2: {
